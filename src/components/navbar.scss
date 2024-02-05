@@ -1,0 +1,33 @@
+.navbar{
+    background-color: #ddd;
+    height:50px;
+    width:100vw;
+    overflow: hidden;
+}
+
+
+li {
+    height: 50px;
+padding: 0 50px;
+text-align: center;
+ display: inline-flex;
+ justify-content: center;
+ background-color: #dddddd;
+float:left;
+align-items:center;
+
+&:first-child {
+    padding-left: 0px;
+ }
+
+}
+
+
+
+
+ul{list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    justify-content: left;
+}

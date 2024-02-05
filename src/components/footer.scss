@@ -1,0 +1,44 @@
+.footer{
+    background-color: darkslateblue;
+    height:50px;
+    width:100vw;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.footer  li {
+    height: 50px;
+padding: 0 50px;
+text-align: center;
+ display: inline-flex;
+ justify-content: center;
+ float:right;
+ color: #dddddd;
+ background-color: darkslateblue;
+ align-items:center;
+
+}
+
+
+
+.footer  ul{list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    justify-content: right;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+//  background-image: linear-gradient(92.88deg, #2b0569 9.16%, 43.89%, rgb(30, 21, 75) 64.72%);
+    border: 0;
+    box-shadow: rgba(27, 21, 39, 0.4) 0 2px 4px,rgba(29, 22, 42, 0.3) 0 7px 13px -3px,rgba(35, 39, 66, 0.5) 0 -3px 0 inset;
+    color:white;
+    text-transform: capitalize;
+}
+ 
